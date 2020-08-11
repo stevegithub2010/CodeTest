@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+      </PropertyGroup>
+      <ItemGroup>
+      <PackageReference Include=Microsoft.AspNetCore.All" Version="3.1"/>
+      </ItemGroup>
+      <ItemGroup>
+      <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+      </ItemGroup>
+    <ItemGroup>
+      <DotNetCliToolReference Include="Microsoft.VisualStudio.web.CodeGereration.Tools" Version=3.1.0"/>
+    </ItemGroup>
+
+</Project>
